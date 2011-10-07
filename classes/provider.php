@@ -110,6 +110,7 @@ abstract class Provider {
 		$params = array(
 			'client_id' => $this->client_id,
 			'redirect_uri' => \Arr::get($options, 'redirect_uri', $this->redirect_uri),
+			'response_type' => 'code',
 			'state' => $state,
 			'scope' => $this->scope,
 		);
