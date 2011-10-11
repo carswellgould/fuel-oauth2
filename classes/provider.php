@@ -47,7 +47,7 @@ abstract class Provider {
 	/**
 	 * @var  string  the method to use when requesting tokens
 	 */
-	protected $method = 'GET';
+	protected $token_request_method = 'GET';
 
 	/**
 	 * Overloads default class properties from the options.
